@@ -47,12 +47,14 @@ make test
 chip8-emulator/
 │── src/               # Source code
 │   ├── chip8.c        # CHIP-8 core implementation
+│   ├── chip8.h        # CHIP-8 header file
 │   ├── display.c      # Display handling (SDL2)
+│   ├── display.h      # Display header file
 │   ├── input.c        # Keyboard input handling
+│   ├── input.h        # Keyboard input header file
 │   ├── main.c         # Entry point of the emulator
-│── include/           # Header files
+│   ├── test.c         # Unit tests
 │── roms/              # Folder for test ROMs
-│── test/              # Unit tests
 │── Makefile           # Build script
 │── README.md          # Project documentation
 ```
